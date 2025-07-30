@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header>
+    <h1 class="logo">Anam<span>Dev</span></h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <h2>Hi, I'm <span>Anam</span></h2>
+      <p>Frontend Developer | UI/UX Designer | Tech Enthusiast</p>
+      <button class="cta">View My Work</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-img">
+      <img src="images/profile.jpg">
+    </div>
+    <div class="about-text">
+      <h3>About Me</h3>
+      <p>
+        I’m a passionate frontend developer who loves crafting interactive and user-centric designs. 
+        My goal is to merge functionality with creativity for a lasting impact.
+      </p>
+      <div class="skills">
+        <p>HTML</p><div class="bar"><span style="width:90%"></span></div>
+        <p>CSS</p><div class="bar"><span style="width:85%"></span></div>
+        <p>JavaScript</p><div class="bar"><span style="width:80%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h3>Projects</h3>
+    <div class="project-grid">
+      <div class="card">
+        <h4>AI Grocery Tracker</h4>
+        <p>Smart AI-powered expiry tracker with OCR.</p>
+      </div>
+      <div class="card">
+        <h4>Music Visualizer</h4>
+        <p>Interactive audio-reactive visualizations.</p>
+      </div>
+      <div class="card">
+        <h4>Portfolio Site</h4>
+        <p>My personal portfolio (this site!).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h3>Get in Touch</h3>
+    <form>
+      <div class="input-box">
+        <input type="text" required>
+        <label>Name</label>
+      </div>
+      <div class="input-box">
+        <input type="email" required>
+        <label>Email</label>
+      </div>
+      <div class="input-box">
+        <textarea required></textarea>
+        <label>Message</label>
+      </div>
+      <button type="submit" class="cta">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 AnamDev. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
